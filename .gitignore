@@ -30,12 +30,19 @@ data/cps-asec/csv/asecpub*.zip
 data/cps-asec/csv/2024/pppub24.csv
 data/cps-asec/fixed-width/*.dat.gz
 
-# ATUS microdata (BLS, public domain, ~1.5GB total)
+# ATUS microdata (BLS, public domain, ~31MB zipped)
 data/atus/*.dat
-data/atus/atuscps-0324.zip
+data/atus/atus*-0324.zip
 
-# ABS microdata (Census Bureau, public domain, ~570MB total)
+# ABS microdata (Census Bureau, public domain, ~55MB zipped)
 data/abs/*.dat
+data/abs/*.zip
+
+# Penn World Table (downloadable from www.rug.nl/ggdc/productivity/pwt/)
+data/pwt/
+
+# macOS archive junk
+**/__MACOSX/
 
 # O*NET extracted database (keep the zip, exclude extracted ~90MB)
 data/onet/db_29_1_text/
