@@ -1,6 +1,6 @@
 # Don't Write Off Human Labor, Yet
 
-Empirical analysis supporting the article ["Don't Write Off Human Labor, Yet"](https://www.lesswrong.com/) — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
+Empirical analysis supporting the article "Don't Write Off Human Labor, Yet" — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
 
 ## Key Findings
 
