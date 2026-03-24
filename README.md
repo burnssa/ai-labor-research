@@ -1,8 +1,8 @@
 # Don't Write Off Human Labor, Yet
 
-Empirical analysis supporting the article "Don't Write Off Human Labor, Yet" — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
+Empirical analysis supporting the article "Don't Write Off Human Labor, Yet", which investigates whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
 
-**Core claim:** Even as AI automates execution, the irreducibly human work of *deciding what to build, for whom, and why* — specification labor — is becoming more valuable, not less. The data suggest AI and specification labor are complements.
+**Core claim:** Even as AI automates execution, the irreducibly human work of *deciding what to build, for whom, and why*, or specification labor, is becoming more valuable, not less. The data suggest AI and specification labor are complements.
 
 ---
 
@@ -32,7 +32,7 @@ If AI and specification labor are complements (σ < 1), occupations with higher 
 
 ### 3. Results are robust to excluding healthcare
 
-Healthcare grew for demographic/policy reasons largely unrelated to AI. Excluding healthcare occupations *strengthens* the wage interaction across all definitions and both AI exposure measures — ruling out the most obvious confound.
+Healthcare grew for demographic/policy reasons largely unrelated to AI. Excluding healthcare occupations *strengthens* the wage interaction across all definitions and both AI exposure measures, suggesting changes in the sector are not driving results.
 
 <p align="center">
   <img src="output/figures/robust_excl_healthcare.png" width="750" alt="Robustness: core findings survive excluding healthcare under multiple definitions">
