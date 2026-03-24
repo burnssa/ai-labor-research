@@ -10,10 +10,16 @@ Empirical analysis supporting the article ["Don't Write Off Human Labor, Yet"](h
 
 ### 1. The economy is shifting toward specification tasks
 
-Management-task-intensive occupations added **+20M jobs** (2005–2024) vs **+5M** for execution-task-intensive. Of the +20M, ~12M are in occupations scoring high on specification-specific tasks (staffing, resource allocation, directing) beyond what cognitive complexity alone predicts.
+Management-task-intensive occupations added **+20M jobs** (2005–2024) vs **+5M** for execution-task-intensive. Decomposing that +20M: **~12M** are in occupations that score high on specification-specific tasks (staffing, resource allocation, directing) beyond what cognitive complexity alone predicts, while ~8M are driven by complexity alone.
 
 <p align="center">
-  <img src="output/figures/exhibit_employment_shift.png" width="700" alt="Employment in management-task-intensive vs execution-task-intensive occupations, 2005-2024">
+  <img src="output/figures/exhibit_employment_shift_decomposed.png" width="700" alt="Decomposing the management-task shift into specification-specific vs complexity-driven components, 2005-2024">
+</p>
+
+The pattern sharpens when crossed with AI exposure: specification-intensive occupations with high AI exposure are the **only** group gaining jobs, while execution-intensive occupations with high AI exposure lost over 60% of employment.
+
+<p align="center">
+  <img src="output/figures/elast_growth_spec_x_ai.png" width="650" alt="Employment growth by specification intensity and AI exposure, showing job gains only where both are high">
 </p>
 
 ### 2. AI exposure amplifies the specification wage premium
