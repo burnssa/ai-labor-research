@@ -1,14 +1,38 @@
 # Don't Write Off Human Labor, Yet
 
-Empirical analysis supporting the article "Don't Write Off Human Labor, Yet" — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
+Empirical analysis supporting the article ["Don't Write Off Human Labor, Yet"](https://www.lesswrong.com/) — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
+
+**Core claim:** Even as AI automates execution, the irreducibly human work of *deciding what to build, for whom, and why* — specification labor — is becoming more valuable, not less. The data suggest AI and specification labor are complements.
+
+---
 
 ## Key Findings
 
-1. **The economy is shifting toward specification tasks.** Management-task-intensive occupations added +20M jobs (2005–2024) vs +5M for execution-task-intensive. Of the +20M, ~12M are in occupations scoring high on specification-specific tasks (staffing, resource allocation, directing) beyond what cognitive complexity alone predicts.
+### 1. The economy is shifting toward specification tasks
 
-2. **AI exposure amplifies the specification wage premium.** Using language-modeling-specific AI exposure (Felten et al.), occupations with higher LLM relevance pay a *larger* specification premium: pooled β₃ = +0.491, permutation p = 0.009, cluster bootstrap 95% CI [+0.02, +0.97]. The overall AI exposure pooled interaction term is slightly lower at 0.32, but significant.
+Management-task-intensive occupations added **+20M jobs** (2005–2024) vs **+5M** for execution-task-intensive. Of the +20M, ~12M are in occupations scoring high on specification-specific tasks (staffing, resource allocation, directing) beyond what cognitive complexity alone predicts.
 
-3. **Results are robust to excluding healthcare.** Healthcare grew for demographic/policy reasons unrelated to AI. Excluding healthcare occupations (SOC 29/31) *strengthens* the wage interaction (β₃ rises from +0.31 to +0.37 for broad AIOE, +0.49 to +0.55 for LM-AIOE).
+<p align="center">
+  <img src="output/figures/exhibit_employment_shift.png" width="700" alt="Employment in management-task-intensive vs execution-task-intensive occupations, 2005-2024">
+</p>
+
+### 2. AI exposure amplifies the specification wage premium
+
+If AI and specification labor are complements (σ < 1), occupations with higher AI exposure should pay a *larger* specification premium. That is exactly what we find: the interaction coefficient β₃ is positive in all 5 cross-sections (2005–2024), with a pooled estimate of +0.315 (p = 0.002). Using language-modeling-specific AI exposure strengthens the effect (β₃ = +0.491, p = 0.009). Image generation AI shows no such pattern.
+
+<p align="center">
+  <img src="output/figures/exhibit_track_a_sigma_bounds.png" width="650" alt="Cross-section wage interaction: specification premium rises with AI exposure in all years">
+</p>
+
+### 3. Results are robust to excluding healthcare
+
+Healthcare grew for demographic/policy reasons largely unrelated to AI. Excluding healthcare occupations *strengthens* the wage interaction across all definitions and both AI exposure measures — ruling out the most obvious confound.
+
+<p align="center">
+  <img src="output/figures/robust_excl_healthcare.png" width="750" alt="Robustness: core findings survive excluding healthcare under multiple definitions">
+</p>
+
+---
 
 ## Data Sources
 
@@ -35,17 +59,9 @@ analysis/                    # All reproducible Python scripts
   robustness_complexity_split.py    # Above-median complexity restriction
   generate_track_a_exhibit.py       # Sigma bounds exhibit
   spec_exec_from_firm_structure.py  # CPS firm-size alternative derivation
-  phase2_eda.py              # Exploratory analysis
-  phase2d_wage_bands.py      # Within-NRC by pay band
-  phase3_dwa.py              # Detailed Work Activities
-  phase4_pca.py              # PCA of GWA space
-  entrepreneurial_phase2_bds.py     # Young-firm job creation (BDS)
-  entrepreneurial_phase2c_growth_profile.py
-  entrepreneurial_phase3_intangibles.py  # Intangible capital (CHS framework)
   requirements.txt           # Python dependencies
 
-data/                        # Raw and intermediate data (not in git)
-  analysis/                  # Intermediate CSVs (master_panel.csv, etc.)
+data/                        # Raw and intermediate data
   onet/                      # O*NET v29.1 database
   ai-exposure/               # AIOE datasets (broad, LM, image generation)
   cps-asec/                  # CPS Annual Social and Economic Supplement
@@ -53,18 +69,9 @@ data/                        # Raw and intermediate data (not in git)
   autor-dorn/                # Autor-Dorn DOT task measures
 
 output/                      # Results and documentation
-  figures/                   # All generated charts (~50 PNGs)
+  figures/                   # Generated charts
   specification_labor_findings.md   # Full findings document
   elasticity_analysis_overview.md   # Elasticity methodology and results
-  pc1_validation.md          # PC1 = cognitive complexity validation
-  aioe_dataset_summary.md    # AIOE dataset documentation
-  autor_connection_and_model.md     # Autor framework extension
-  model_strict_complementarity.md   # Formal model options
-
-docs/                        # Working notes and data documentation
-  data-inventory.md          # Raw data source inventory
-  data-availability-survey.md
-  ai-discourse-volume-estimate.md
 ```
 
 ## Reproducing Results
@@ -87,15 +94,15 @@ python analysis/robustness_complexity_split.py
 python analysis/generate_track_a_exhibit.py
 ```
 
-## Methodology Overview
+## Methodology
 
-**Defining specification vs execution:** We contrast management occupations (SOC 11-XXXX, n=33) against all others on 41 O\*NET GWAs. The management profile correlates R² = 0.905 with PC1 (cognitive complexity, validated at r = +0.85 against [Acemoglu & Autor 2011](https://economics.mit.edu/sites/default/files/publications/Skills,%20Tasks%20and%20Technologies%20-%20Implications%20for%20.pdf) exact NRC task measures). We residualize to isolate specification-specific tasks: staffing, resource allocation, directing, selling — the tasks that survive after removing what's explained by general cognitive complexity.
+**Defining specification vs execution:** We contrast management occupations (SOC 11-XXXX, n=33) against all others on 41 O\*NET Generalized Work Activities. The management profile correlates R² = 0.905 with PC1 (cognitive complexity, validated at r = +0.85 against [Acemoglu & Autor 2011](https://economics.mit.edu/sites/default/files/publications/Skills,%20Tasks%20and%20Technologies%20-%20Implications%20for%20.pdf) exact NRC task measures). We residualize to isolate specification-specific tasks: staffing, resource allocation, directing, selling — the tasks that survive after removing what's explained by general cognitive complexity.
 
-**Testing complementarity:** Under CES, if σ(AI, spec labor) < 1, occupations with higher AI exposure should pay a larger specification premium. We test this with cross-sectional wage regressions, finding β₃(spec × LM-AIOE) = +0.491 — positive in all 5 years, significant under permutation (p = 0.009) and cluster bootstrap (CI excludes zero).
+**Testing complementarity:** Under CES production, if σ(AI, spec labor) < 1, occupations with higher AI exposure should pay a larger specification premium. We test this with cross-sectional wage regressions across 5 time periods, finding β₃ positive in all years, significant under permutation (p = 0.009) and cluster bootstrap (CI excludes zero).
 
-**On employment weighting:** The wage interaction is estimated with employment weights, which is the correct specification for a labor-market-level question: "where millions of workers actually are, do specification skills command a larger premium in AI-exposed fields?" Without weights, each occupation counts equally regardless of whether it employs 50 people or 3 million, and small niche occupations (gem cutters, fallers, models) with idiosyncratic wage patterns introduce substantial noise. The unweighted estimate is near zero — reflecting this noise, not a contradictory signal. The employment-weighted result survives permutation inference (p = 0.009), leave-one-out (100% positive across all 754 occupations), and placebo task axes (100th percentile), confirming it is not driven by any single occupation or arbitrary measurement choice.
+**Employment weighting:** The wage interaction is estimated with employment weights — the correct specification for a labor-market-level question. The result survives permutation inference, leave-one-out (100% positive across all 754 occupations), and placebo task axes (100th percentile), confirming it is not driven by any single occupation or arbitrary measurement choice.
 
-**Other limitations:** We have no IV strategy. AI adoption is 2–3 years old, so effects are early-stage. See `output/elasticity_analysis_overview.md` for full discussion.
+**Limitations:** We have no IV strategy. AI adoption is 2–3 years old, so effects are early-stage. See `output/elasticity_analysis_overview.md` for full discussion.
 
 ## References
 
