@@ -1,6 +1,6 @@
 # Don't Write Off Human Labor, Yet
 
-Empirical analysis supporting the article ["Don't Write Off Human Labor, Yet"](https://www.lesswrong.com/) — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
+Empirical analysis supporting the article "Don't Write Off Human Labor, Yet" — investigating whether AI capital and human "specification labor" are complements (σ < 1) rather than substitutes.
 
 **Core claim:** Even as AI automates execution, the irreducibly human work of *deciding what to build, for whom, and why* — specification labor — is becoming more valuable, not less. The data suggest AI and specification labor are complements.
 
