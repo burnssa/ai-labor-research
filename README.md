@@ -6,7 +6,7 @@ Empirical analysis supporting the article "Don't Write Off Human Labor, Yet" —
 
 1. **The economy is shifting toward specification tasks.** Management-task-intensive occupations added +20M jobs (2005–2024) vs +5M for execution-task-intensive. Of the +20M, ~12M are in occupations scoring high on specification-specific tasks (staffing, resource allocation, directing) beyond what cognitive complexity alone predicts.
 
-2. **AI exposure amplifies the specification wage premium.** Using language-modeling-specific AI exposure (Felten et al.), occupations with higher LLM relevance pay a *larger* specification premium: pooled β₃ = +0.491, permutation p = 0.009, cluster bootstrap 95% CI [+0.02, +0.97]. Image generation AI shows no such effect.
+2. **AI exposure amplifies the specification wage premium.** Using language-modeling-specific AI exposure (Felten et al.), occupations with higher LLM relevance pay a *larger* specification premium: pooled β₃ = +0.491, permutation p = 0.009, cluster bootstrap 95% CI [+0.02, +0.97]. The overall AI exposure pooled interaction term is slightly lower at 0.32, but significant.
 
 3. **Results are robust to excluding healthcare.** Healthcare grew for demographic/policy reasons unrelated to AI. Excluding healthcare occupations (SOC 29/31) *strengthens* the wage interaction (β₃ rises from +0.31 to +0.37 for broad AIOE, +0.49 to +0.55 for LM-AIOE).
 
