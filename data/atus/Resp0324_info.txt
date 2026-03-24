@@ -1,0 +1,13 @@
+The data file atusresp_0324.dat (2003-24 Respondent file) contains 133 variables and 252,808 observations. 
+
+For more information on the 2003-24 Respondent file, please see the 2003-24 ATUS Interview Data Dictionary, available online at: https://www.bls.gov/tus/atusintcodebk0324.pdf.   
+
+In addition to the data file, three computer programs are contained in atusresp_0324.zip.  If you have SPSS, SAS, or Stata software, you may use these programs to read the data into your statistical software package.  The programs include variable and value labels for most variables.  For information about unlabeled values, please refer to the data dictionary.
+
+The file "atusresp_0324.sps" reads the data into SPSS.
+
+The file "atusresp_0324.sas" reads the data into SAS.
+
+The file "atusresp_0324.do" reads the data into Stata.
+
+If you have SAS, SPSS, or Stata software, open the corresponding program, edit the infile (in SAS), file (in SPSS) or import (in Stata) statement to reference the data file on your computer, and run the program. 

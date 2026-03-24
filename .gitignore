@@ -1,0 +1,41 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────────────────────────
+# Large data files (>100MB, cannot push to GitHub)
+# Users should download these from original sources.
+# See data/DATA_SOURCES.md for download instructions.
+# ─────────────────────────────────────────────────────────────────
+
+# CPS ASEC microdata (Census Bureau, public domain, ~1.4GB total)
+data/cps-asec/csv/asecpub*.zip
+data/cps-asec/csv/2024/pppub24.csv
+data/cps-asec/fixed-width/*.dat.gz
+
+# ATUS microdata (BLS, public domain, ~1.5GB total)
+data/atus/*.dat
+data/atus/atuscps-0324.zip
+
+# ABS microdata (Census Bureau, public domain, ~570MB total)
+data/abs/*.dat
+
+# O*NET extracted database (keep the zip, exclude extracted ~90MB)
+data/onet/db_29_1_text/

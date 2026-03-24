@@ -1,0 +1,140 @@
+industry,metric,year,value,source
+Craft Beer,Dollar Share (%),2014,19.3,Brewers Association
+Craft Beer,Dollar Share (%),2015,21.8,Brewers Association
+Craft Beer,Dollar Share (%),2016,22.2,Brewers Association
+Craft Beer,Dollar Share (%),2017,23.4,Brewers Association
+Craft Beer,Dollar Share (%),2018,24.1,Brewers Association
+Craft Beer,Dollar Share (%),2019,25.2,Brewers Association
+Craft Beer,Dollar Share (%),2020,23.6,Brewers Association
+Craft Beer,Dollar Share (%),2021,26.8,Brewers Association
+Craft Beer,Dollar Share (%),2022,24.5,Brewers Association
+Craft Beer,Dollar Share (%),2023,24.7,Brewers Association
+Craft Beer,Number of Craft Breweries,2005,1447,Brewers Association
+Craft Beer,Number of Craft Breweries,2006,1460,Brewers Association
+Craft Beer,Number of Craft Breweries,2007,1511,Brewers Association
+Craft Beer,Number of Craft Breweries,2008,1574,Brewers Association
+Craft Beer,Number of Craft Breweries,2009,1652,Brewers Association
+Craft Beer,Number of Craft Breweries,2010,1759,Brewers Association
+Craft Beer,Number of Craft Breweries,2011,2009,Brewers Association
+Craft Beer,Number of Craft Breweries,2012,2401,Brewers Association
+Craft Beer,Number of Craft Breweries,2013,2898,Brewers Association
+Craft Beer,Number of Craft Breweries,2014,3464,Brewers Association
+Craft Beer,Number of Craft Breweries,2015,4269,Brewers Association
+Craft Beer,Number of Craft Breweries,2016,5234,Brewers Association
+Craft Beer,Number of Craft Breweries,2017,6266,Brewers Association
+Craft Beer,Number of Craft Breweries,2018,7346,Brewers Association
+Craft Beer,Number of Craft Breweries,2019,8275,Brewers Association
+Craft Beer,Number of Craft Breweries,2020,8764,Brewers Association
+Craft Beer,Number of Craft Breweries,2021,9118,Brewers Association
+Craft Beer,Number of Craft Breweries,2022,9552,Brewers Association
+Craft Beer,Number of Craft Breweries,2023,9761,Brewers Association
+Craft Beer,Volume Share (%),2005,3.4,Brewers Association
+Craft Beer,Volume Share (%),2006,3.6,Brewers Association
+Craft Beer,Volume Share (%),2007,3.8,Brewers Association
+Craft Beer,Volume Share (%),2008,4.0,Brewers Association
+Craft Beer,Volume Share (%),2009,4.3,Brewers Association
+Craft Beer,Volume Share (%),2010,4.9,Brewers Association
+Craft Beer,Volume Share (%),2011,5.7,Brewers Association
+Craft Beer,Volume Share (%),2012,6.5,Brewers Association
+Craft Beer,Volume Share (%),2013,7.8,Brewers Association
+Craft Beer,Volume Share (%),2014,11.0,Brewers Association
+Craft Beer,Volume Share (%),2015,12.2,Brewers Association
+Craft Beer,Volume Share (%),2016,12.3,Brewers Association
+Craft Beer,Volume Share (%),2017,12.7,Brewers Association
+Craft Beer,Volume Share (%),2018,13.2,Brewers Association
+Craft Beer,Volume Share (%),2019,13.6,Brewers Association
+Craft Beer,Volume Share (%),2020,12.3,Brewers Association
+Craft Beer,Volume Share (%),2021,13.1,Brewers Association
+Craft Beer,Volume Share (%),2022,13.2,Brewers Association
+Craft Beer,Volume Share (%),2023,13.3,Brewers Association
+Craft Spirits,Dollar Share (%),2022,7.8,ACSA/DISCUS
+Craft Spirits,Dollar Share (%),2023,7.6,ACSA/DISCUS
+Craft Spirits,Dollar Share (%),2024,7.5,ACSA/DISCUS
+Craft Spirits,Number of Craft Distilleries,2015,1315,ACSA
+Craft Spirits,Number of Craft Distilleries,2016,1589,ACSA
+Craft Spirits,Number of Craft Distilleries,2017,1835,ACSA
+Craft Spirits,Number of Craft Distilleries,2018,2011,ACSA
+Craft Spirits,Number of Craft Distilleries,2019,2216,ACSA
+Craft Spirits,Number of Craft Distilleries,2020,2467,ACSA
+Craft Spirits,Number of Craft Distilleries,2021,2726,ACSA
+Craft Spirits,Number of Craft Distilleries,2022,2898,ACSA
+Craft Spirits,Number of Craft Distilleries,2023,2754,ACSA
+Craft Spirits,Number of Craft Distilleries,2024,3069,ACSA
+Craft Spirits,Volume (millions of 9L cases),2019,14.1,ACSA
+Craft Spirits,Volume (millions of 9L cases),2020,13.4,ACSA
+Craft Spirits,Volume (millions of 9L cases),2021,15.2,ACSA
+Craft Spirits,Volume (millions of 9L cases),2022,14.7,ACSA
+Craft Spirits,Volume (millions of 9L cases),2023,13.5,ACSA
+Craft Spirits,Volume (millions of 9L cases),2024,12.7,ACSA
+Etsy,Active Buyers (millions),2015,24.0,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2016,28.6,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2017,33.4,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2018,39.4,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2019,46.4,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2020,81.9,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2021,96.3,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2022,88.3,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2023,91.6,Etsy 10-K (SEC EDGAR)
+Etsy,Active Buyers (millions),2024,95.5,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2015,1.6,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2016,1.7,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2017,1.9,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2018,2.1,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2019,2.7,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2020,4.4,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2021,7.5,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2022,7.5,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2023,6.9,Etsy 10-K (SEC EDGAR)
+Etsy,Active Sellers (millions),2024,8.1,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2015,2.39,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2016,2.84,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2017,3.25,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2018,3.93,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2019,5.0,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2020,10.28,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2021,13.49,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2022,13.32,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2023,12.62,Etsy 10-K (SEC EDGAR)
+Etsy,GMV ($ billions),2024,12.6,Etsy 10-K (SEC EDGAR)
+Farmers Markets,Number of Markets,1994,1755,USDA AMS
+Farmers Markets,Number of Markets,1996,2410,USDA AMS
+Farmers Markets,Number of Markets,1998,2746,USDA AMS
+Farmers Markets,Number of Markets,2000,2863,USDA AMS
+Farmers Markets,Number of Markets,2002,3137,USDA AMS
+Farmers Markets,Number of Markets,2004,3706,USDA AMS
+Farmers Markets,Number of Markets,2006,4385,USDA AMS
+Farmers Markets,Number of Markets,2008,4685,USDA AMS
+Farmers Markets,Number of Markets,2009,5274,USDA AMS
+Farmers Markets,Number of Markets,2010,6132,USDA AMS
+Farmers Markets,Number of Markets,2011,7175,USDA AMS
+Farmers Markets,Number of Markets,2012,7864,USDA AMS
+Farmers Markets,Number of Markets,2013,8144,USDA AMS
+Farmers Markets,Number of Markets,2014,8268,USDA AMS
+Farmers Markets,Number of Markets,2015,8476,USDA AMS
+Farmers Markets,Number of Markets,2016,8669,USDA AMS
+Farmers Markets,Number of Markets,2017,8687,USDA AMS
+Farmers Markets,Number of Markets,2018,8720,USDA AMS
+Farmers Markets,Number of Markets,2019,8771,USDA AMS
+Indie Bookstores,Number of ABA Member Stores,2000,4000,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2005,2500,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2009,1401,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2010,1410,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2012,1567,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2014,1712,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2016,1775,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2018,1887,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2019,1916,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2020,1916,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2021,2023,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2022,2561,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2023,2890,American Booksellers Association
+Indie Bookstores,Number of ABA Member Stores,2024,3218,American Booksellers Association
+Specialty Food,Total Sales ($ billions),2015,120.5,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2016,127.0,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2017,140.3,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2018,148.7,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2019,158.4,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2020,170.4,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2021,175.0,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2022,194.0,Specialty Food Association
+Specialty Food,Total Sales ($ billions),2023,207.0,Specialty Food Association
